@@ -1,11 +1,11 @@
 function main(numOne, numTwo) {
   // Only change code below this line
-  numOne = 6;
-  numTwo = 15;
+  var numOne;
+  var numTwo;
   sum = numOne + numTwo;
 
   // Only change code above this line
   return sum;
 }
-console.log(main());
+console.log(main(15, 8));
 module.exports = main;
